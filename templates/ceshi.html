@@ -10,15 +10,8 @@
     <link rel="stylesheet" href="{% static 'bootstrap-3.3.7-dist/css/bootstrap.css' %}">
     {#    <link rel="stylesheet" href="{% static 'blog_css/my_blog.css' %}">#}
     <link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="{% static 'css/highlight/styles/xcode.css' %}">
 
-
-    {#    <link rel="stylesheet" href="{% static 'css/custom.css' %}">#}
-
-    <link rel="stylesheet" href="{% static 'css/pace.css' %}">
-    {#    <link rel="stylesheet" href="{% static 'css/custom.css' %}">#}
-
-    <link rel="stylesheet" href="{% static 'css/highlights/vs.css' %}">
-    {#    <link rel="stylesheet" href="{% static 'css/highlights/monokai.css' %}">#}
 
     <!--返回顶部-->
     {#    <script src="{% static 'scrollup/jquery.scrollUp.js' %}"></script>#}
@@ -31,7 +24,7 @@
         @media (min-width: 768px) {
             .sidebar {
                 position: fixed;
-                top: 51px;
+                top: 60px;
                 bottom: 0;
                 right: 0;
                 z-index: 1000;
@@ -229,6 +222,7 @@
 </body>
 <script src="{% static 'jquery-3.2.1.min.js' %}"></script>
 <script src="{% static 'bootstrap-3.3.7-dist/js/bootstrap.js' %}"></script>
+<script src="{% static 'css/highlight/highlight.pack.js' %}"></script>
 
 <script>
     $(function () {
@@ -239,7 +233,7 @@
     });
 </script>
 <script src="/static/js/plus.js"></script>
-{#<script>hljs.initHighlightingOnLoad();</script>#}
+<script>hljs.initHighlightingOnLoad();</script>
 
 </html>
 
